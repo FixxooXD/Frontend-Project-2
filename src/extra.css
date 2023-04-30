@@ -1,12 +1,16 @@
-body {
+/* body {
 	font-family:
 		system-ui,
 		-apple-system, /* Firefox supports this but not yet `system-ui` */
-		'Segoe UI',
+	/*	'Segoe UI',
 		Roboto,
 		Helvetica,
 		Arial,
 		sans-serif,
 		'Apple Color Emoji',
 		'Segoe UI Emoji';
+} */
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
