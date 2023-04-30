@@ -2,7 +2,7 @@
 	font-family:
 		system-ui,
 		-apple-system, /* Firefox supports this but not yet `system-ui` */
-	/*	'Segoe UI',
+/*	'Segoe UI',
 		Roboto,
 		Helvetica,
 		Arial,
@@ -11,6 +11,10 @@
 		'Segoe UI Emoji';
 } */
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#shortDesc {
+  font-family: "Roboto", sans-serif;
 }
