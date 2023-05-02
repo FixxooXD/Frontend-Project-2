@@ -526,6 +526,134 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.-top-0 {
+  top: -0px;
+}
+
+.-top-5 {
+  top: -1.25rem;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-2\.5 {
+  left: 0.625rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-2\.5 {
+  top: 0.625rem;
+}
+
+.-top-2 {
+  top: -0.5rem;
+}
+
+.-top-2\.5 {
+  top: -0.625rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.-left-12 {
+  left: -3rem;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[10rem\] {
+  top: 10rem;
+}
+
+.top-\[30rem\] {
+  top: 30rem;
+}
+
+.top-\[40rem\] {
+  top: 40rem;
+}
+
+.top-\[80rem\] {
+  top: 80rem;
+}
+
+.left-\[2rem\] {
+  left: 2rem;
+}
+
+.left-\[6rem\] {
+  left: 6rem;
+}
+
+.left-\[8rem\] {
+  left: 8rem;
+}
+
+.left-\[rem\] {
+  left: rem;
+}
+
+.left-\[7rem\] {
+  left: 7rem;
+}
+
+.left-\[6\.5rem\] {
+  left: 6.5rem;
+}
+
+.left-\[15rem\] {
+  left: 15rem;
+}
+
+.left-\[10rem\] {
+  left: 10rem;
+}
+
+.left-\[1rem\] {
+  left: 1rem;
+}
+
+.left-\[12rem\] {
+  left: 12rem;
+}
+
+.left-\[11rem\] {
+  left: 11rem;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
 .ml-24 {
   margin-left: 6rem;
 }
@@ -536,6 +664,22 @@ video {
 
 .flex {
   display: flex;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-5 {
+  height: 1.25rem;
 }
 
 .w-1\/2 {
@@ -558,12 +702,40 @@ video {
   width: 100vw;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-around {
@@ -574,6 +746,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -582,53 +758,61 @@ video {
   border-width: 2px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
 
-.bg-\[\#bfdbfe\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.bg-\[\#dbeafe\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+.border-\[\#F50057\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(245 0 87 / var(--tw-border-opacity));
 }
 
-.bg-\[\#eff6ff\] {
+.bg-\[\#E8EAF6\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+  background-color: rgb(232 234 246 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#f0f9ff\] {
+.bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(240 249 255 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[\] {
   background-color: ;
 }
 
-.bg-\[\#\] {
-  background-color: #;
+.bg-\[F\] {
+  background-color: F;
 }
 
-.bg-\[\#EA\] {
-  background-color: #EA;
+.bg-\[F5\] {
+  background-color: F5;
 }
 
-.bg-\[\#E8\] {
-  background-color: #E8;
+.bg-\[F500\] {
+  background-color: F500;
 }
 
-.bg-\[\#E8EA\] {
-  background-color: #E8EA;
+.bg-\[F50057\] {
+  background-color: F50057;
 }
 
-.bg-\[\#E8EAF6\] {
+.bg-\[\#F50057\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(232 234 246 / var(--tw-bg-opacity));
+  background-color: rgb(245 0 87 / var(--tw-bg-opacity));
+}
+
+.bg-none {
+  background-image: none;
 }
 
 .p-2 {
@@ -643,6 +827,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pt-12 {
@@ -663,6 +857,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -673,6 +877,32 @@ video {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#26\] {
+  color: #26;
+}
+
+.text-\[\#2632\] {
+  color: #2632;
+}
+
+.text-\[\#263238\] {
+  --tw-text-opacity: 1;
+  color: rgb(38 50 56 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

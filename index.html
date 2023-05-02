@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="src/extra.css" />
     <link rel="stylesheet" href="src/output.css" />
     <title>Project 2</title>
@@ -16,8 +18,7 @@
     <div class="">
       <!-- desktop-view-Nav -->
       <div class="flex items-center py-5 border-b w-screen fixed">
-        <div
-          class="w-[45%] flex items-center justify-around ml-24">
+        <div class="w-[45%] flex items-center justify-around ml-24">
           <a href="#" id="logo" class=""
             ><img class="w-12" src="assets/logo.svg" alt=""
           /></a>
@@ -26,20 +27,49 @@
           <div>FOR CLIENTS</div>
           <div>FAQ</div>
           <div>ACADEMY</div>
-          <button class="border px-
-          4 py-2 rounded-xl">CARRRIER SETUP</button>
+          <button class="border px- 4 py-2 rounded-xl">CARRRIER SETUP</button>
         </div>
       </div>
-      <div class="flex border-2 pt-[5rem]">
+
+      <div class="flex pt-[5rem]">
         <div class="w-1/2 flex flex-col items-center">
-            <h1 class="text-3xl md:text-6xl lg:pt-[12rem] font-extrabold text-brand-black">
-                Independent
-                <br>
-                Truck
-                <br>
-                Dispatching
-            </h1>
-            <div id="shortDesc" class="w-[60%] ml-[2.5rem] pt-12 p-2 text-xl font-medium capitalize">Our primary goal is to prepare professional staff members to assume leadership positions in logistics companies, private dispatch agencies, and voluntary organizations.</div>
+          <h1
+            class="text-3xl md:text-6xl lg:pt-[12rem] font-extrabold text-[#263238]">
+            Independent
+            <br />
+            Truck
+            <br />
+            Dispatching
+          </h1>
+          <div
+            id="shortDesc"
+            class="w-[60%] ml-[2.5rem] pt-12 p-2 text-xl font-medium capitalize">
+            Our primary goal is to prepare professional staff members to assume
+            leadership positions in logistics companies, private dispatch
+            agencies, and voluntary organizations.
+          </div>
+          <!-- Iam Dropdown -->
+          <div class="border-2 absolute top-[40rem] left-[11rem] w-32">
+            <div
+              class="bg-[#F50057] relative z-20 text-white w-64 h-16 rounded-lg flex justify-between items-center px-3">
+              <p class="text-lg">Iam A...</p>
+              <!-- Down Arrow -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </div>
+            <div
+              class="absolute z-0 w-64 h-16 border-2 rounded-lg left-2.5 top-2.5 bg-none border-[#F50057]"></div>
+          </div>
         </div>
         <div class="w-1/2">
           <img src="assets/hero-img.png" alt="" />
