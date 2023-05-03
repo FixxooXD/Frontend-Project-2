@@ -17,6 +17,50 @@
   <body onscroll="scrollFunction()" class="bg-[#E8EAF6]">
     <!-- content-Parent -->
     <div class="">
+      <!-- mobile-view-nav -->
+      <nav
+        id="nav-mobile"
+        class="hidden fixed z-30 bg-white w-full flex  flex-col justify-center items-center h-96 transition-height ease-in-out">
+        <div
+          id="nav-mobile"
+          class="flex flex-col text-sm justify-around h-[80%]">
+          <button>ABOUT</button>
+          <button>SERVICES</button>
+          <button>FOR CLIENTS</button>
+          <button>FAQ</button>
+          <button>ACADEMY</button>
+          <button
+            class="border-2 border-[#F50057] text-[#F50057] px-2 py-2 rounded-xl">
+            CARRRIER SETUP
+          </button>
+        </div>
+      </nav>
+       
+      <nav id="navv" class="z-40 w-full h-20 p-5 fixed">
+        <div onclick="navMobile()" class="curser-pointer">
+          <img class="absolute top-4 w-12" src="assets/logo.svg" alt="" />
+          <div id="navMobileBtn" class="absolute top-7 right-4 text-white">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </div>
+        </div>
+      </nav>
+
+       <!-- mobile-img -->
+       <div class="relative lg:hidden">
+        <img class="w-full lg:hidden" src="assets/hero-mobile.svg" alt="" />
+      </div>
+
       <!-- desktop-view-Nav -->
       <div
         class="hidden lg:block flex items-center py-5 border-b w-screen fixed">
@@ -32,36 +76,11 @@
           <button class="border 4 py-2 rounded-xl">CARRRIER SETUP</button>
         </div>
       </div>
-      <!-- mobile-view-nav -->
-      <nav id="nav-mobile" class="hidden flex flex-col justify-center items-center h-96 transition-height ease-in-out">
-        <div id="nav-mobile" class="flex flex-col text-sm justify-around h-[80%]">
-        <button>ABOUT</button>
-        <button>SERVICES</button>
-        <button>FOR CLIENTS</button>
-        <button>FAQ</button>
-        <button>ACADEMY</button>
-        <button class="border-2 border-[#F50057] text-[#F50057] px-2 py-2 rounded-xl">CARRRIER SETUP</button>
-      </div>
-      </nav>
 
       <!-- first-content -->
       <div class="flex flex-col lg:flex-row lg:pt-[5rem]">
-         <!-- mobile-img -->
-         <div class="relative lg:hidden">
-          <nav id="navv" class="w-full h-20 p-5 fixed">
-            <div onclick="navMobile()" class="curser-pointer">
-              <img class="absolute top-4 w-12" src="assets/logo.svg" alt="">
-              <div id="navMobileBtn" class="absolute top-7 right-4 text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-              </svg>
-              </div>
-            </div>
-           </nav>
-         <img class="w-full lg:hidden" src="assets/hero-mobile.svg" alt="" />
-       </div>
-
-        <div class="absolute lg:relative lg:top-0 top-[43rem] lg:w-1/2 w-full flex flex-col items-center border border-black">
+        <div
+          class="absolute lg:relative lg:top-0 top-[43rem] lg:w-1/2 w-full flex flex-col items-center border border-black">
           <h1
             class="absolute left-4 top-2 lg-static text-3xl md:text-6xl lg:pt-[12rem] font-extrabold text-[#263238]">
             Independent
@@ -78,9 +97,10 @@
             agencies, and voluntary organizations.
           </div>
           <!-- Iam Dropdown -->
-          <div class="border-2 relative top-4 right-[1rem] lg:top-[40rem] lg:left-[11rem] w-32">
+          <div
+            class="border-2 relative top-4 right-[1rem] lg:top-[40rem] lg:left-[11rem] w-32">
             <div
-              class=" bg-[#F50057] relative z-20 text-white w-64 h-16 rounded-lg flex justify-between items-center px-3">
+              class="bg-[#F50057] relative z-20 text-white w-64 h-16 rounded-lg flex justify-between items-center px-3">
               <p class="text-lg">Iam A...</p>
               <!-- Down Arrow -->
               <svg
@@ -100,11 +120,9 @@
               class="absolute z-0 w-64 h-16 border-2 rounded-lg left-2.5 top-2.5 bg-none border-[#F50057]"></div>
           </div>
         </div>
-        <div class="lg:w-1/2 w-screen">
-        </div>
-            <!-- desktop-img -->
-            <img class="hidden lg:block w-1/2" src="assets/hero-img.png" alt="" />
-
+        <div class="lg:w-1/2 w-screen"></div>
+        <!-- desktop-img -->
+        <img class="hidden lg:block w-1/2" src="assets/hero-img.png" alt="" />
       </div>
     </div>
   </body>
