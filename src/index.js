@@ -1,17 +1,20 @@
 const mobileNav = document.getElementById("nav-mobile")
-const navv = document.getElementById('navv')
+const navv = document.getElementById('navv');
 const navMobileBtn = document.getElementById("navMobileBtn")
+
+
 
 
 function scrollFunction() {
     let y = window.pageYOffset;
     if (y > 50) {
       navv.classList.add("bg-[#E8EAF6]");
-      navMobileBtn.classList.add("text-black")
-
+      navv.style.boxShadow ="rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;"
+      navMobileBtn.classList.remove("text-white");
     } else {
       navv.classList.remove("bg-[#E8EAF6]");
-      navMobileBtn.classList.remove('text-black')
+      // navv.classList.remove("shadow-2xl");
+      navMobileBtn.classList.add('text-white') 
     }
   }
   
