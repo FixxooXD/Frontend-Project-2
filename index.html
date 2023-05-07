@@ -22,7 +22,7 @@
         <div class="fixed w-full z-40">
           <!-- Hidden-Nav -->
           <nav
-            id="nav-mobile"
+            id="nav"
             class="hidden bg-[#F3F4FF] flex w-full flex-col justify-center items-center h-96 transition-height ease-in-out">
             <div
               id="nav-mobile"
@@ -67,9 +67,9 @@
       </div>
 
       <!-- desktop-view-Nav -->
-      <div
-        class="hidden lg:block flex items-center py-5 border-b w-screen fixed">
-        <div class="w-[45%] flex items-center justify-around ml-24">
+      <div id="navv-desktop"
+        class="hidden lg:flex items-center py-5 w-screen fixed z-20 border-2">
+        <div class="w-[45%] flex items-center justify-around ml-28 text-sm"> 
           <a href="#" id="logo" class=""
             ><img class="w-12" src="assets/logo.svg" alt=""
           /></a>
@@ -78,13 +78,14 @@
           <div>FOR CLIENTS</div>
           <div>FAQ</div>
           <div>ACADEMY</div>
-          <button class="border 4 py-2 rounded-xl">CARRRIER SETUP</button>
+          <button class="border-2 border-[#F50057] text-[#F50057] py-3 px-2 rounded-xl">CARRRIER SETUP</button>
         </div>
       </div>
+    </div>
 
       <!-- first-content -->
-      <div class="flex flex-col lg:flex-row relative z-10">
-           <div>
+      <div class="flex flex-col lg:flex-row relative z-10 top-[5rem] ">
+           <div class="xl:pl-[12rem] lg:pt-[6rem] lg:w-[45%]">
                 <h1
                   class="relative p-5 -top-[7rem] text-3xl md:text-6xl lg:pt-[12rem] font-extrabold text-[#263238]">
                   Independent
@@ -96,16 +97,14 @@
                 </h1>
                 <div
                 id="shortDesc"
-                class="lg:w-[60%] p-5 relative -top-[7rem]">
+                class="lg:w-[90%] p-5 relative -top-[7rem] lg:text-xl">
                 Our primary goal is to prepare professional staff members to assume
                 leadership positions in logistics companies, private dispatch
                 agencies, and voluntary organizations.
               </div>
-           </div>
-
            <!-- dropdown -->
            <div
-            class="border-2 relative w-32 -top-[4rem] left-[1rem]">
+            class="border-2 relative w-32 -top-[4rem] lg:-top-[6rem] lg:left-[1rem] left-[1rem] lg:left-0">
             <div
               class="bg-[#F50057] relative z-20 text-white w-64 h-16 rounded-lg flex justify-between items-center px-3">
               <p class="text-lg">Iam A...</p>
@@ -126,11 +125,12 @@
            <div
               class="absolute z-0 w-64 h-16 border-2 rounded-lg left-2.5 top-2.5 bg-none border-[#F50057]"></div>
           </div>
-           </div>
-      </div>
-        <div class="lg:w-1/2 w-screen"></div>
+        </div>
         <!-- desktop-img -->
-        <img class="hidden lg:block w-1/2" src="assets/hero-img.png" alt="" />
+        <div>
+        <img class="hidden  lg:block border-2" src="assets/hero-img.png" alt="" />
+      </div>
+        </div>
     </div>
   </body>
 </html>
