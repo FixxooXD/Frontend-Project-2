@@ -4,11 +4,6 @@ const navMobileBtn = document.getElementById("navMobileBtn")
 
 
 
-// background: rgb(243, 244, 255);
-//  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;
-
-
-
 function scrollFunction() {
     let y = window.pageYOffset;
     if (y > 50) {

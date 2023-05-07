@@ -18,8 +18,8 @@
     <!-- content-Parent -->
     <div class="">
       <!-- mobile-view -->
-      <div>
-        <div class="fixed w-full">
+      <div class="lg:hidden" >
+        <div class="fixed w-full z-40">
           <!-- Hidden-Nav -->
           <nav
             id="nav-mobile"
@@ -43,7 +43,7 @@
           <nav
             id="navv"
             onscroll="scrollFunction()"
-            class="w-full h-20 p-5 fixed">
+            class="w-full h-20 p-5 fixed lg:hidden">
             <div onclick="navMobile()" class="curser-pointer">
               <img class="absolute top-4 w-12" src="assets/logo.svg" alt="" />
               <div id="navMobileBtn" class="absolute top-7 right-4 text-white">
@@ -62,8 +62,8 @@
               </div>
             </div>
           </nav>
-          <img class="w-full lg:hidden" src="assets/hero-mobile.svg" alt="" />
         </div>
+        <img class="w-full lg:hidden" src="assets/hero-mobile.svg" alt="" />
       </div>
 
       <!-- desktop-view-Nav -->
@@ -83,52 +83,54 @@
       </div>
 
       <!-- first-content -->
-      <div class="flex flex-col lg:flex-row lg:pt-[5rem]">
-        <div
-          class="absolute lg:relative lg:top-0 top-[43rem] lg:w-1/2 w-full flex flex-col items-center border border-black">
-          <h1
-            class="absolute left-4 top-2 lg-static text-3xl md:text-6xl lg:pt-[12rem] font-extrabold text-[#263238]">
-            Independent
-            <br />
-            Truck
-            <br />
-            Dispatching
-          </h1>
-          <div
-            id="shortDesc"
-            class="lg:w-[60%] mt-[8rem] lg:ml-[2.5rem] lg:pt-12 p-4 lg:p-2 text-medium lg:text-xl font-medium capitalize border border-black">
-            Our primary goal is to prepare professional staff members to assume
-            leadership positions in logistics companies, private dispatch
-            agencies, and voluntary organizations.
-          </div>
-          <!-- Iam Dropdown -->
-          <div
-            class="border-2 relative top-4 right-[1rem] lg:top-[40rem] lg:left-[11rem] w-32">
+      <div class="flex flex-col lg:flex-row relative z-10">
+           <div>
+                <h1
+                  class="relative p-5 -top-[7rem] text-3xl md:text-6xl lg:pt-[12rem] font-extrabold text-[#263238]">
+                  Independent
+                  <br />
+                  Truck
+                  <br />
+                  Dispatching
+                </h1>
+                </h1>
+                <div
+                id="shortDesc"
+                class="lg:w-[60%] p-5 relative -top-[7rem]">
+                Our primary goal is to prepare professional staff members to assume
+                leadership positions in logistics companies, private dispatch
+                agencies, and voluntary organizations.
+              </div>
+           </div>
+
+           <!-- dropdown -->
+           <div
+            class="border-2 relative w-32 -top-[4rem] left-[1rem]">
             <div
               class="bg-[#F50057] relative z-20 text-white w-64 h-16 rounded-lg flex justify-between items-center px-3">
               <p class="text-lg">Iam A...</p>
-              <!-- Down Arrow -->
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-5 h-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"></path>
-              </svg>
-            </div>
-            <div
+                   <!-- Down Arrow -->
+                   <svg
+                   xmlns="http://www.w3.org/2000/svg"
+                   class="w-5 h-5"
+                   fill="none"
+                   viewBox="0 0 24 24"
+                   stroke="currentColor">
+                   <path
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     stroke-width="2"
+                     d="M19 9l-7 7-7-7"></path>
+                 </svg>
+           </div>
+           <div
               class="absolute z-0 w-64 h-16 border-2 rounded-lg left-2.5 top-2.5 bg-none border-[#F50057]"></div>
           </div>
-        </div>
+           </div>
+      </div>
         <div class="lg:w-1/2 w-screen"></div>
         <!-- desktop-img -->
         <img class="hidden lg:block w-1/2" src="assets/hero-img.png" alt="" />
-      </div>
     </div>
   </body>
 </html>
