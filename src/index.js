@@ -1,9 +1,10 @@
 const mobileNav = document.getElementById("nav-mobile")
 const navv = document.getElementById('navv');
+const hiddenNav = document.getElementById('nav')
 const navvDesktop = document.getElementById("navv-desktop")
 const navMobileBtn = document.getElementById("navMobileBtn")
 
-console.log(navvDesktop);
+// console.log(hiddenNav);
 
 function scrollFunction() {
     let y = window.pageYOffset;
@@ -24,9 +25,9 @@ function scrollFunction() {
   
 
 function navMobile(){
-if(mobileNav.classList.contains('hidden')){
-    mobileNav.classList.remove("hidden")
+if(hiddenNav.classList.contains('hidden')){
+  hiddenNav.classList.remove("hidden")
 }else{
-    mobileNav.classList.add("hidden")
+  hiddenNav.classList.add("hidden")
 }
 }
