@@ -1,2 +1,4 @@
 node_modules
 text.html
+# Local Netlify folder
+.netlify
