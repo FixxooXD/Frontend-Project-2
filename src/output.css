@@ -690,6 +690,22 @@ video {
   top: -20rem;
 }
 
+.top-\[\] {
+  top: ;
+}
+
+.top-\[rem\] {
+  top: rem;
+}
+
+.top-\[1rem\] {
+  top: 1rem;
+}
+
+.top-\[2rem\] {
+  top: 2rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -790,6 +806,30 @@ video {
   margin-top: rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -824,6 +864,30 @@ video {
 
 .h-\[80\%\] {
   height: 80%;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[2rem\] {
+  height: 2rem;
+}
+
+.h-\[5rem\] {
+  height: 5rem;
+}
+
+.h-\[rem\] {
+  height: rem;
+}
+
+.h-\[4\.5rem\] {
+  height: 4.5rem;
+}
+
+.h-\[8rem\] {
+  height: 8rem;
 }
 
 .w-1\/2 {
@@ -946,6 +1010,34 @@ video {
   width: 28rem;
 }
 
+.w-36 {
+  width: 9rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[1rem\] {
+  width: 1rem;
+}
+
+.w-\[16rem\] {
+  width: 16rem;
+}
+
+.w-\[17rem\] {
+  width: 17rem;
+}
+
+.w-\[50\] {
+  width: 50;
+}
+
+.w-\[35re\] {
+  width: 35re;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -976,6 +1068,18 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .border-2 {
@@ -1022,12 +1126,50 @@ video {
   background-color: ;
 }
 
+.bg-\[\#5c6bco\] {
+  background-color: #5c6bco;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#5\] {
+  background-color: #5;
+}
+
+.bg-\[\#5C\] {
+  background-color: #5C;
+}
+
+.bg-\[\#46\] {
+  background-color: #46;
+}
+
+.bg-\[\#466\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 102 102 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#4662B\] {
+  background-color: #4662B;
+}
+
+.bg-\[\#4662B7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(70 98 183 / var(--tw-bg-opacity));
+}
+
 .bg-none {
   background-image: none;
 }
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-2 {
@@ -1069,6 +1211,10 @@ video {
   padding-left: 1rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1107,6 +1253,10 @@ video {
   font-weight: 800;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-\[\#263238\] {
   --tw-text-opacity: 1;
   color: rgb(38 50 56 / var(--tw-text-opacity));
@@ -1127,10 +1277,55 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#F3F4FF\] {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#5c\] {
+  color: #5c;
+}
+
+.text-\[\#5c6\] {
+  --tw-text-opacity: 1;
+  color: rgb(85 204 102 / var(--tw-text-opacity));
+}
+
+.text-\[\#5c6bco\] {
+  color: #5c6bco;
+}
+
+.text-\[\#4662B7\] {
+  --tw-text-opacity: 1;
+  color: rgb(70 98 183 / var(--tw-text-opacity));
+}
+
 .shadow-\[0_0_15px_0px_rgba\(0\2c 0\2c 0\2c 0\.3\)\] {
   --tw-shadow: 0 0 15px 0px rgba(0,0,0,0.3);
   --tw-shadow-colored: 0 0 15px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .ease-in-out {
