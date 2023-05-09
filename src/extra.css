@@ -22,3 +22,9 @@ body {
 /* nav{
  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;
 } */
+
+#second-Content{
+	background-image: linear-gradient(#272cba, #33388e, #3949ab);
+	/* background-image: linear-gradient(#4A00E0, #8E2DE2); */
+
+}

@@ -566,6 +566,10 @@ video {
   right: 1rem;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
 .top-2 {
   top: 0.5rem;
 }
@@ -586,16 +590,104 @@ video {
   top: 5rem;
 }
 
-.right-0 {
-  right: 0px;
+.top-0 {
+  top: 0px;
 }
 
-.right-2 {
-  right: 0.5rem;
+.-top-5 {
+  top: -1.25rem;
 }
 
-.right-5 {
-  right: 1.25rem;
+.-top-12 {
+  top: -3rem;
+}
+
+.-top-\[5rem\] {
+  top: -5rem;
+}
+
+.-top-0 {
+  top: -0px;
+}
+
+.-top-\[1rem\] {
+  top: -1rem;
+}
+
+.-top-\[14rem\] {
+  top: -14rem;
+}
+
+.-top-\[12rem\] {
+  top: -12rem;
+}
+
+.right-\[2rem\] {
+  right: 2rem;
+}
+
+.left-\[2rem\] {
+  left: 2rem;
+}
+
+.left-\[6rem\] {
+  left: 6rem;
+}
+
+.left-\[5rem\] {
+  left: 5rem;
+}
+
+.-left-\[1rem\] {
+  left: -1rem;
+}
+
+.right-\[rem\] {
+  right: rem;
+}
+
+.right-\[5rem\] {
+  right: 5rem;
+}
+
+.-right-\[5rem\] {
+  right: -5rem;
+}
+
+.right-\[10rem\] {
+  right: 10rem;
+}
+
+.left-\[10rem\] {
+  left: 10rem;
+}
+
+.-left-\[10rem\] {
+  left: -10rem;
+}
+
+.-left-\[6rem\] {
+  left: -6rem;
+}
+
+.-left-\[5rem\] {
+  left: -5rem;
+}
+
+.top-80 {
+  top: 20rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.-top-80 {
+  top: -20rem;
 }
 
 .z-0 {
@@ -612,6 +704,30 @@ video {
 
 .z-40 {
   z-index: 40;
+}
+
+.float-right {
+  float: right;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .ml-16 {
@@ -632,6 +748,46 @@ video {
 
 .mt-\[8rem\] {
   margin-top: 8rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mt-\[10rem\] {
+  margin-top: 10rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-\[10\] {
+  margin-top: 10;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-\[20rem\] {
+  margin-top: 20rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[2rem\] {
+  margin-top: 2rem;
+}
+
+.mt-\[rem\] {
+  margin-top: rem;
 }
 
 .flex {
@@ -662,32 +818,12 @@ video {
   height: 24rem;
 }
 
-.h-\[80\%\] {
-  height: 80%;
-}
-
-.h-\[10rem\] {
-  height: 10rem;
-}
-
-.h-\[010rem\] {
-  height: 010rem;
-}
-
-.h-\[5rem\] {
-  height: 5rem;
-}
-
 .h-\[4rem\] {
   height: 4rem;
 }
 
-.h-\[6rem\] {
-  height: 6rem;
-}
-
-.h-\[2rem\] {
-  height: 2rem;
+.h-\[80\%\] {
+  height: 80%;
 }
 
 .w-1\/2 {
@@ -718,6 +854,10 @@ video {
   width: 16rem;
 }
 
+.w-\[4rem\] {
+  width: 4rem;
+}
+
 .w-\[50\%\] {
   width: 50%;
 }
@@ -734,36 +874,76 @@ video {
   width: 100vw;
 }
 
-.w-\[\] {
-  width: ;
+.w-\[10r\] {
+  width: 10r;
 }
 
 .w-\[10rem\] {
   width: 10rem;
 }
 
-.w-36 {
-  width: 9rem;
+.w-\[30rem\] {
+  width: 30rem;
 }
 
-.w-\[5rem\] {
-  width: 5rem;
+.w-\[14rem\] {
+  width: 14rem;
 }
 
-.w-\[4rem\] {
-  width: 4rem;
+.w-\[15rem\] {
+  width: 15rem;
 }
 
-.w-\[6rem\] {
-  width: 6rem;
+.w-\[12rem\] {
+  width: 12rem;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
+}
+
+.w-\[25rem\] {
+  width: 25rem;
+}
+
+.w-\[2rem\] {
+  width: 2rem;
+}
+
+.w-\[27rem\] {
+  width: 27rem;
+}
+
+.w-\[24rem\] {
+  width: 24rem;
+}
+
+.w-\[35rem\] {
+  width: 35rem;
+}
+
+.w-\[40rem\] {
+  width: 40rem;
 }
 
 .w-\[rem\] {
   width: rem;
 }
 
-.w-\[2rem\] {
-  width: 2rem;
+.w-\[6rem\] {
+  width: 6rem;
+}
+
+.w-\[36rem\] {
+  width: 36rem;
+}
+
+.w-\[38rem\] {
+  width: 38rem;
+}
+
+.w-\[28rem\] {
+  width: 28rem;
 }
 
 .flex-col {
@@ -786,6 +966,10 @@ video {
   justify-content: space-around;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -794,33 +978,29 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .border-2 {
   border-width: 2px;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .border-4 {
   border-width: 4px;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-none {
+  border-style: none;
+}
+
 .border-\[\#F50057\] {
   --tw-border-opacity: 1;
   border-color: rgb(245 0 87 / var(--tw-border-opacity));
+}
+
+.border-transparent {
+  border-color: transparent;
 }
 
 .bg-\[\#F3F4FF\] {
@@ -836,6 +1016,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
 }
 
 .bg-none {
