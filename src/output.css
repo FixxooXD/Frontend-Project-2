@@ -618,6 +618,10 @@ video {
   z-index: 40;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .float-right {
   float: right;
 }
@@ -626,9 +630,28 @@ video {
   margin: 0.5rem;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .ml-16 {
@@ -891,6 +914,19 @@ video {
   justify-content: space-around;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -917,6 +953,10 @@ video {
 
 .border-4 {
   border-width: 4px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-2 {
@@ -1022,6 +1062,21 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-\[2rem\] {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-\[1rem\] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-\[1\.5rem\] {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pl-4 {
@@ -1156,12 +1211,32 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .sm\:m-4 {
     margin: 1rem;
   }
 
+  .sm\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .sm\:mr-0 {
+    margin-right: 0px;
+  }
+
   .sm\:w-\[29rem\] {
     width: 29rem;
+  }
+
+  .sm\:w-\[9rem\] {
+    width: 9rem;
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .sm\:px-\[2rem\] {
@@ -1451,6 +1526,22 @@ video {
     height: 10rem;
   }
 
+  .xl\:h-36 {
+    height: 9rem;
+  }
+
+  .xl\:h-24 {
+    height: 6rem;
+  }
+
+  .xl\:h-1 {
+    height: 0.25rem;
+  }
+
+  .xl\:h-20 {
+    height: 5rem;
+  }
+
   .xl\:w-\[10rem\] {
     width: 10rem;
   }
@@ -1479,6 +1570,18 @@ video {
     width: 80%;
   }
 
+  .xl\:w-\[12rem\] {
+    width: 12rem;
+  }
+
+  .xl\:w-\[14rem\] {
+    width: 14rem;
+  }
+
+  .xl\:w-\[11rem\] {
+    width: 11rem;
+  }
+
   .xl\:justify-center {
     justify-content: center;
   }
@@ -1491,9 +1594,27 @@ video {
     padding: 3rem;
   }
 
+  .xl\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .xl\:p-\[\] {
+    padding: ;
+  }
+
   .xl\:px-\[2rem\] {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .xl\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .xl\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .xl\:pl-\[2rem\] {
