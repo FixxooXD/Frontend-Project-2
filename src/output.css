@@ -691,6 +691,14 @@ video {
   margin-top: 8rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -825,6 +833,30 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[12rem\] {
+  width: 12rem;
+}
+
+.w-\[10rem\] {
+  width: 10rem;
+}
+
+.w-\[8rem\] {
+  width: 8rem;
+}
+
+.w-\[rem\] {
+  width: rem;
+}
+
+.w-\[9rem\] {
+  width: 9rem;
 }
 
 .grid-cols-2 {
@@ -975,6 +1007,21 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[5rem\] {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pl-4 {
