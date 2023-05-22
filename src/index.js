@@ -1,8 +1,12 @@
-const mobileNav = document.getElementById("nav-mobile")
+const mobileNav = document.getElementById("nav-mobile");
 const navv = document.getElementById('navv');
-const hiddenNav = document.getElementById('nav')
-const navvDesktop = document.getElementById("navv-desktop")
-const navMobileBtn = document.getElementById("navMobileBtn")
+const hiddenNav = document.getElementById('nav');
+const navvDesktop = document.getElementById("navv-desktop");
+const navMobileBtn = document.getElementById("navMobileBtn");
+const chatInterface = document.getElementById("chatInterface");
+const closeBtn = document.getElementById('closeBtn');
+const chatOpt = document.getElementById("chatOpt");
+
 
 // console.log(hiddenNav);
 
@@ -31,41 +35,6 @@ if(hiddenNav.classList.contains('hidden')){
   hiddenNav.classList.add("hidden")
 }
 }
-
-
-// var elem = document.querySelector('.main-carousel');
-// var flkty = new Flickity( elem, {
-//   // options
-//   cellAlign: 'left',
-//   contain: true
-// });
-
-// // element argument can be a selector string
-// //   for an individual element
-// var flkty = new Flickity( '.main-carousel', {
-//   // options
-// });
-
-// const swiper = new Swiper('.swiper', {
-//   // Optional parameters
-//   // direction: 'vertical',
-//   loop: true,
-
-//   // If we need pagination
-//   // pagination: {
-//   //   el: '.swiper-pagination',
-//   // },
-
-  
-
-//   // And if we need scrollbar
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
-// });
-
-
-// setInterval(function () {element.innerHTML += "Hello"}, 1000);
 
 const nextBtn  = document.getElementById('next')
 
@@ -131,3 +100,13 @@ var swiper = new Swiper('.swiper', {
     },
   }
  });
+
+ chatOpt.addEventListener("click",()=>{
+  chatInterface.classList.remove("hidden");
+ })
+
+ closeBtn.addEventListener("click",()=>{
+     chatInterface.classList.add("hidden");
+ })
+
+ 
