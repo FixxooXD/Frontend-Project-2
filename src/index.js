@@ -70,7 +70,7 @@ if(hiddenNav.classList.contains('hidden')){
 const nextBtn  = document.getElementById('next')
 
 
-swiper = new Swiper('.swiper', {
+var swiper = new Swiper('.swiper', {
   loop:true,
   // slidesPerView: 2,
   // slidesPerGroup:2,
@@ -101,8 +101,33 @@ swiper = new Swiper('.swiper', {
   }
  });
 
+ var swiper2 = new Swiper('.swiper1', {
+  loop:true,
+  slidesPerView: 2,
+  slidesPerGroup:2,
+  spaceBetween: 20,
+  // centerSlide: true,
+  // fade:true,
+  // clickable: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
 
-nextBtn.addEventListener("click",()=>{
-  // swiper.autoplay.resume()
-
-})
+  breakpoints:{
+    0:{
+      slidesPerView: 2,
+    },
+    520:{
+      slidesPerView: 4,
+    },
+    950:{
+      slidesPerView: 6,
+    },
+  }
+ });
