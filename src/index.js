@@ -45,3 +45,64 @@ if(hiddenNav.classList.contains('hidden')){
 // var flkty = new Flickity( '.main-carousel', {
 //   // options
 // });
+
+// const swiper = new Swiper('.swiper', {
+//   // Optional parameters
+//   // direction: 'vertical',
+//   loop: true,
+
+//   // If we need pagination
+//   // pagination: {
+//   //   el: '.swiper-pagination',
+//   // },
+
+  
+
+//   // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+// });
+
+
+// setInterval(function () {element.innerHTML += "Hello"}, 1000);
+
+const nextBtn  = document.getElementById('next')
+
+
+swiper = new Swiper('.swiper', {
+  loop:true,
+  // slidesPerView: 2,
+  // slidesPerGroup:2,
+  spaceBetween: 20,
+  // centerSlide: true,
+  // fade:true,
+  // clickable: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+
+  breakpoints:{
+    0:{
+      slidesPerView: 1,
+    },
+    520:{
+      slidesPerView: 2,
+    },
+    950:{
+      slidesPerView: 3,
+    }
+  }
+ });
+
+
+nextBtn.addEventListener("click",()=>{
+  // swiper.autoplay.resume()
+
+})

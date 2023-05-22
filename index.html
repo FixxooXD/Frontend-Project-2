@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
       rel="stylesheet" />
+
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   
     <link rel="stylesheet" href="src/extra.css" />
     <link rel="stylesheet" href="src/output.css" />
     <!-- CSS -->
      <script defer src="src/index.js"></script>
     <title>Project 2</title>
   </head>
-  <body onscroll="scrollFunction()" class="bg-[#F3F4FF]">
+  <body onscroll="scrollFunction()" class="bg-[#F3F4FF] overflow-x-hidden">
     <!-- content-Parent -->
     <div class="">
       <!-- mobile-view -->
@@ -486,61 +495,90 @@
     </div>
   
     <!-- who we Helped -->
-    <section class="">
+    <section class="overflow-x-hidden">
       <h1>Who We Helped</h1>
       <h3>Lets others speak</h3>
 
       <!-- carousel -->
-      <!-- <div class="border flex-nowrap">
+      <div class="flex justify-center">
+       
+       <!-- Slider main container -->
+<div class="swiper w-[95%]">
 
-        <div class="w-[36rem] flex flex-col justify-between items-center border-2">
-          <div class="w-full flex justify-center items-center mt-4">
-            <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
-          </div> 
-          <h2 class="mt-4">Robert Fox</h2>
-          <h3>November 28, 2023</h3>
-          <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
-        </div>
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="flex flex-col bg-white justify-between items-center">
+        <div class="w-full flex justify-center items-center mt-4">
+          <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
+        </div> 
+        <h2 class="mt-4">Robert Fox</h2>
+        <h3>November 28, 2023</h3>
+        <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="flex flex-col bg-white justify-between items-center ">
+        <div class="w-full flex justify-center items-center mt-4">
+          <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
+        </div> 
+        <h2 class="mt-4">Robert Fox</h2>
+        <h3>November 28, 2023</h3>
+        <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="flex flex-col bg-white justify-between items-center">
+        <div class="w-full flex justify-center items-center mt-4">
+          <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
+        </div> 
+        <h2 class="mt-4">Robert Fox</h2>
+        <h3>November 28, 2023</h3>
+        <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="flex flex-col bg-white justify-between items-center">
+        <div class="w-full flex justify-center items-center mt-4">
+          <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
+        </div> 
+        <h2 class="mt-4">Robert Fox</h2>
+        <h3>November 28, 2023</h3>
+        <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="flex flex-col bg-white justify-between items-center">
+        <div class="w-full flex justify-center items-center mt-4">
+          <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
+        </div> 
+        <h2 class="mt-4">Robert Fox</h2>
+        <h3>November 28, 2023</h3>
+        <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="flex flex-col bg-white justify-between items-center">
+        <div class="w-full flex justify-center items-center mt-4">
+          <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
+        </div> 
+        <h2 class="mt-4">Robert Fox</h2>
+        <h3>November 28, 2023</h3>
+        <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
+      </div>
+    </div>
+  </div>
 
-        <div class="w-[36rem] flex flex-col justify-between items-center border-2">
-          <div class="w-full flex justify-center items-center mt-4">
-            <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
-          </div> 
-          <h2 class="mt-4">Robert Fox</h2>
-          <h3>November 28, 2023</h3>
-          <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
-        </div>
-
-        <div class="w-[36rem] flex flex-col justify-between items-center border-2">
-          <div class="w-full flex justify-center items-center mt-4">
-            <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
-          </div> 
-          <h2 class="mt-4">Robert Fox</h2>
-          <h3>November 28, 2023</h3>
-          <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
-        </div>
-
-        <div class="w-[36rem] flex flex-col justify-between items-center border-2">
-          <div class="w-full flex justify-center items-center mt-4">
-            <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
-          </div> 
-          <h2 class="mt-4">Robert Fox</h2>
-          <h3>November 28, 2023</h3>
-          <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
-        </div>
-
-        <div class="w-[36rem] flex flex-col justify-between items-center border-2">
-          <div class="w-full flex justify-center items-center mt-4">
-            <img class="rounded-full h-28 w-28" src="assets/download.jpg" alt="">
-          </div> 
-          <h2 class="mt-4">Robert Fox</h2>
-          <h3>November 28, 2023</h3>
-          <p class="w-full p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium quo hic placeat, voluptatum obcaecati nobis ipsam. Quibusdam doloribus eos veritatis ea beatae repellendus facilis placeat nulla magni voluptatem, alias dolorum.</p>
-        </div>
-      </div> -->
+  <!-- If we need navigation buttons -->
+  <div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+</div>      
+      </div>
+ 
     </section>
-
-
 
     <footer class="mt-16 p-5 ">
       <div class="lg:flex justify-between items-center py-8 ">
@@ -554,7 +592,7 @@
     </div>
 
       <section class="border-t-2 border-white mt-12 py-5 lg:flex lg:justify-between lg:mt-0">
-        <div class="lg:w-[40%]">
+        <div class="lg:w-[40%] border">
       <div class="mt-6">
        <img src="assets/logo-white.svg" alt="">
       </div>
@@ -566,8 +604,8 @@
       </div>
     </div>
 
-    <div class=" lg:w-[60%] lg:mt-6">
-    <div class="flex justify-between lg:w-[100%] lg:ml-14 mt-16 pr-8 sm:w-[80%] md:w-[35rem] lg:w-full lg:w-[80%] lg:mt-0" >
+    <div class=" lg:w-[60%] lg:mt-6 border">
+    <div class="flex justify-between lg:justify-around lg:w-[100%] lg:ml-14 mt-16 pr-8 sm:w-[80%] md:w-[35rem] lg:w-full lg:w-[80%] lg:mt-0" >
       <!-- about-us -->
       <div class="">
         <h1 class="text-xl font-bold text-white">About Us</h1>
@@ -588,7 +626,7 @@
       </div>
 
         <!-- Im -->
-     <div class="hidden md:block">
+     <div class="hidden md:flex flex-col">
       <h1 class="text-xl font-bold text-white">I AM A...</h1> 
       <div class="text-white text-base font-medium mt-4">Broker</div>
       <div class="text-white text-base font-medium lg:mt-3 mt-1">Carrier</div>
