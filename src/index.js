@@ -7,9 +7,6 @@ const chatInterface = document.getElementById("chatInterface");
 const closeBtn = document.getElementById('closeBtn');
 const chatOpt = document.getElementById("chatOpt");
 
-
-// console.log(hiddenNav);
-
 function scrollFunction() {
     let y = window.pageYOffset;
     if (y > 50) {

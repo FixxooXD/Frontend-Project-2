@@ -137,7 +137,7 @@
                  </svg>
            </div>
            <div
-              class="absolute z-0 w-64 h-16 border-2 rounded-lg left-2.5 top-2.5 bg-none border-[#F50057]"></div>
+              class="absolute z-10 w-64 h-16 border-2 rounded-lg left-2.5 top-2.5 bg-none border-[#F50057]"></div>
           </div>
         </div>
         <!-- desktop-img -->
@@ -250,7 +250,7 @@
     <!-- Second-content -->
     <div class="border-2 border-transparent mt-[2rem]">
       <!-- chat-option -->
-      <button id="chatOpt" class="z-40 float-right sticky top-80  w-[4rem] h-[4rem] lg:w-[12rem] border-4 border-[#F50057] bg-white rounded-full flex justify-center items-center xl:justify-around lg:-rotate-90 lg:px-9">
+      <button id="chatOpt" class="z-30 float-right sticky top-80  w-[4rem] h-[4rem] lg:w-[12rem] border-4 border-[#F50057] bg-white rounded-full flex justify-center items-center xl:justify-around lg:-rotate-90 lg:px-9">
     <svg width="25" height="25" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M11.0037 6.23522e-07C9.09529 -0.000641851 7.21955 0.495228 5.56078 1.43889C3.902 2.38255 2.51728 3.74153 1.54265 5.3823C0.568027 7.02307 0.0370419 8.88918 0.00186884 10.7973C-0.0333042 12.7053 0.428545 14.5898 1.34204 16.2653L0.0403702 20.8303C-0.00543146 20.9906 -0.00665168 21.1604 0.0368411 21.3213C0.0803338 21.4823 0.166893 21.6283 0.287201 21.7437C0.40751 21.8591 0.557014 21.9395 0.719621 21.9763C0.882229 22.013 1.05178 22.0048 1.21004 21.9523L5.49637 20.5242C6.95728 21.3684 8.59281 21.8652 10.2764 21.9762C11.9601 22.0872 13.6467 21.8094 15.2058 21.1642C16.7649 20.5191 18.1546 19.524 19.2676 18.2558C20.3806 16.9877 21.1869 15.4805 21.6242 13.8508C22.0615 12.2212 22.118 10.5128 21.7894 8.85781C21.4608 7.20283 20.7559 5.64562 19.7292 4.30665C18.7025 2.96768 17.3816 1.88284 15.8686 1.13606C14.3555 0.389274 12.691 0.000564574 11.0037 6.23522e-07ZM7.33704 9.16667C7.33704 8.92355 7.43361 8.69039 7.60552 8.51849C7.77743 8.34658 8.01059 8.25 8.2537 8.25H13.7537C13.9968 8.25 14.23 8.34658 14.4019 8.51849C14.5738 8.69039 14.6704 8.92355 14.6704 9.16667C14.6704 9.40978 14.5738 9.64294 14.4019 9.81485C14.23 9.98676 13.9968 10.0833 13.7537 10.0833H8.2537C8.01059 10.0833 7.77743 9.98676 7.60552 9.81485C7.43361 9.64294 7.33704 9.40978 7.33704 9.16667ZM8.2537 11.9167H11.9204C12.1635 11.9167 12.3966 12.0132 12.5686 12.1852C12.7405 12.3571 12.837 12.5902 12.837 12.8333C12.837 13.0764 12.7405 13.3096 12.5686 13.4815C12.3966 13.6534 12.1635 13.75 11.9204 13.75H8.2537C8.01059 13.75 7.77743 13.6534 7.60552 13.4815C7.43361 13.3096 7.33704 13.0764 7.33704 12.8333C7.33704 12.5902 7.43361 12.3571 7.60552 12.1852C7.77743 12.0132 8.01059 11.9167 8.2537 11.9167Z" fill="url(#paint0_linear)"></path>
     <defs><linearGradient id="paint0_linear" x1="-2.66065" y1="6.13083e-07" x2="23.8649" y2="1.67809" gradientUnits="userSpaceOnUse">
@@ -622,46 +622,75 @@
  
  
     </section>
-
+    
     <!-- chat-app -->
-    <div id="chatInterface" class="w-[70%] border float-right fixed top-[10rem] z-40  right-1 bg-white p-4 hidden">
-    <!-- closeBTN -->
-    <div id="closeBtn" class="absolute -top-10 h-8 w-8 rounded-full flex justify-center items-center right-1 z-40 bg-white">
-      <button>
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#F50057]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-      </svg>
-      </button>
-    </div>
-      <!-- chating-interface -->
-      <div>
-         <div class="flex w-fit relative">
-          <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
-          <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
-         </div>
 
-         <div class="flex w-fit relative">
-          <div class="w-[50%] h-fit text-sm border-2 ml-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
-          <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
-         </div>
+  <!-- closeBTN -->  
+  <button id="closeBtn" class="fixed top-[6.5rem] z-30 right-4 h-8 w-8 rounded-full bg-white flex justify-center items-center shadow-2xl">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#F50057]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+  </svg>
+  </button>
 
-         <div class="flex w-fit">
-          <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
-          <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
-         </div>
+  <div class="chatting flex flex-row p-2 shadow-xl fixed top-[8.6rem] w-[60%] z-40 bg-white right-4">
+    <div class="border-2 border-[#222] h-10 w-10 flex justify-center items-center rounded-full relative">
+    <i class="fa-solid fa-clipboard-user text-xl"></i>
+    <div class="bg-[#22c55e] w-2 h-2 rounded-full absolute top-[1.7rem] right-0"></div>
+  </div>
+    <div class="flex flex-col ml-2">
+    <h1 class="font-semibold">Customer Service</h1>
+    <h3 class="text-xs text-gray-500" >Online</h3>
+  </div>
+  </div>
+    <div class="w-[60%] h-[26rem] bg-white overflow-y-auto float-right fixed top-[12rem] z-30  right-4 shadow-2xl">
 
-         <div class="flex w-fit">
-          <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
-          <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
-         </div>
-
-         <div class="flex w-fit">
-          <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
-          <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
-         </div>
+  <!-- chating-interface -->
+      <div id="chatInterface" class="p-5 py-8 chatting">
+         <!-- chating-interface -->
+    <div class="">
+      <div class="flex w-fit relative">
+       <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+       <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
       </div>
-    </div>
 
+      <div class="flex w-fit relative">
+       <div class="w-[50%] h-fit text-sm border-2 ml-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
+       <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+      </div>
+
+      <div class="flex w-fit">
+       <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+       <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
+      </div>
+
+      <div class="flex w-fit">
+        <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+        <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
+       </div>
+
+      <div class="flex w-fit">
+       <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+       <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
+      </div>
+
+      <div class="flex w-fit">
+       <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+       <div class="w-[50%] h-fit text-sm border-2 ml-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
+      </div>
+   </div>
+      </div>
+
+  <!-- chat-keyboard -->
+    <div class="flex fixed h-16 w-[60%] bottom-12 justify-around items-center px-4 bg-white top-[38rem] border-t-2 rounded-b-xl shadow-2xl">
+    <div>
+    <input placeholder="Text something..." class="border h-10 text-base p-2" type="text" name="" id="">
+    </div>
+    <button id="enter" class="enter h-12 w-12 rounded-full">
+      <i class="fa-solid fa-paper-plane text-white"></i>
+    </button>
+  </div>
+
+  </div>
     <footer class="mt-16 lg:mt-24 p-5 ">
       <div class="lg:flex justify-between items-center py-8 lg:px-5">
       <div class="">

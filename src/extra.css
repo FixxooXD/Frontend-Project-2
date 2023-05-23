@@ -27,11 +27,16 @@ body {
  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;
 } */
 
-#second-Content,#whyUs, footer{
+#second-Content,#whyUs,.enter, footer{
 	/* background-image: linear-gradient(#272cba, #33388e, #3949ab); */
 	background-image: linear-gradient(#272cba, #33388e,#3949ab);
 	
 	/* background-image: linear-gradient(#4A00E0, #8E2DE2); */
 
+}
+
+.chatting
+{
+    box-shadow: inset 0 -7px 9px -7px rgba(0,0,0,0.4);
 }
 
