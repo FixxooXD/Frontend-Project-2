@@ -1112,6 +1112,14 @@ video {
   width: 60;
 }
 
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .-rotate-12 {
   --tw-rotate: -12deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
