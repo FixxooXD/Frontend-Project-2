@@ -15,17 +15,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-#shortDesc {
+#shortDesc,#left-chat,#right-chat,#chatIntput {
   font-family: "Roboto", sans-serif;
 }
 
 #Zeyada{
 	font-family: 'Zeyada', cursive;
 }
-
-/* nav{
- box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 15px 0px;
-} */
 
 #second-Content,#whyUs,.enter, footer{
 	/* background-image: linear-gradient(#272cba, #33388e, #3949ab); */
@@ -50,6 +46,4 @@ body {
 	border-bottom-right-radius: 20px;
 }
 
-/* #right-chat{
 
-} */

@@ -106,4 +106,22 @@ var swiper = new Swiper('.swiper', {
      chatInterface.classList.add("hidden");
  })
 
- 
+ const chatInput = document.getElementById("chatIntput");
+ const chatEnter = document.getElementById("enter");
+ const timeLine = document.getElementById("timeLine")
+
+ chatEnter.addEventListener("click", ()=>{
+  var text = chatInput.value ;
+  let container = document.createElement("div");
+  timeLine.appendChild(container);
+  let listItem = document.createElement("div");
+
+  // console.log(text)
+//    listItem.innerHTML(`<div class="flex w-fit relative mt-4">
+//   <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600] mr-2">${text}</div>
+//   <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+//  </div>`)
+//  container.appendChild(listItem);
+ })
+
+

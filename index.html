@@ -624,7 +624,7 @@
     </section>
     
     <!-- chat-app -->
-
+<div id="chatInterface" class="">
   <!-- closeBTN -->  
   <button id="closeBtn" class="fixed top-[6.5rem] z-30 right-4 h-8 w-8 rounded-full bg-white flex justify-center items-center shadow-2xl">
     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#F50057]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -632,7 +632,7 @@
   </svg>
   </button>
 
-  <div class="flex flex-row p-2 py-4 bg-[#F6F6F6]  px-4 shadow-xl fixed top-[8.6rem] w-[80%] z-40 bg-white right-4">
+  <div class="flex flex-row p-2 py-4 bg-[#F6F6F6] rounded-t-xl px-4 shadow-xl fixed top-[8.6rem] w-[80%] sm:w-[50%] md:w-[40%] lg:w-[30%]  z-40 bg-white right-4">
     <div class="border-2 border-[#222] h-10 w-10 flex justify-center items-center rounded-full relative bg-white">
     <i class="fa-solid fa-clipboard-user text-xl"></i>
     <div class="bg-[#22c55e] w-2 h-2 rounded-full absolute top-[1.7rem] right-0"></div>
@@ -642,19 +642,19 @@
     <h3 class="text-xs text-gray-500" >Online</h3>
   </div>
   </div>
-    <div class="w-[80%] h-[26rem] bg-[#DDDDDD] overflow-y-auto float-right fixed top-[12rem] z-30  right-4 shadow-2xl">
+    <div class="w-[80%] sm:w-[50%] md:w-[40%] lg:w-[30%] h-[26rem] bg-[#DDDDDD] overflow-y-auto float-right fixed top-[12rem] z-30  right-4 shadow-2xl">
 
   <!-- chating-interface -->
-      <div id="chatInterface" class="p-5 py-8">
+      <div class="p-2 py-8">
          <!-- chating-interface -->
-    <div class="">
+    <div class="timeLine">
       <div class="flex w-fit relative">
        <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
        <div id="left-chat" class="max-w-[50%] h-fit text-xs ml-2 bg-white py-1 px-4 tracking-tight">Lorem ipsum dolor, sit , velit.</div>
       </div>
 
       <div class="flex w-fit relative mt-4">
-       <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
+       <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600] mr-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
        <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
       </div>
 
@@ -664,7 +664,7 @@
        </div>
 
        <div class="flex w-fit relative mt-4">
-        <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
+        <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600] mr-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
         <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
        </div>
 
@@ -674,16 +674,22 @@
        </div>
 
        <div class="flex w-fit relative mt-4">
-        <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
+        <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600] mr-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, velit.</div>
         <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+       </div>
+
+       <div class="flex w-fit relative mt-4">
+        <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+        <div id="left-chat" class="w-[50%] h-fit text-xs ml-2 bg-white py-1 px-4">Lorem ipsum dolor, sit , velit.</div>
        </div>
    </div>
       </div>
+    </div>
 
   <!-- chat-keyboard -->
-    <div class="flex fixed h-16 w-[80%] bottom-12 justify-around items-center px-2 bg-white top-[38rem] border-t-2 rounded-b-xl shadow-2xl">
+    <div class="flex right-4 z-40 fixed h-16 w-[80%] sm:w-[50%] md:w-[40%] lg:w-[30%] bottom-12 justify-around items-center px-2 bg-white top-[38rem] border-t-2 rounded-b-xl shadow-2xl xl:px-12">
     <div>
-    <input placeholder="Text something..." class="border h-10 text-base p-2" type="text" name="" id="">
+    <input  placeholder="Type here..." class="border h-10 xl:w-[15rem]  text-sm p-2" type="text" name="" id="chatIntput">
     </div>
     <button id="enter" class="enter h-10 w-10 rounded-full">
       <i class="fa-solid fa-paper-plane text-white"></i>
