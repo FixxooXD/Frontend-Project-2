@@ -109,20 +109,53 @@ var swiper = new Swiper('.swiper', {
  const chatInput = document.getElementById("chatIntput");
  const chatEnter = document.getElementById("enter");
  const timeLine = document.getElementById("timeLine")
+ const chatInt = document.getElementById("chatInterface")
 
- chatEnter.addEventListener("click", ()=>{
-  var text = chatInput.value ;
-  let container = document.createElement("div");
-  timeLine.appendChild(container);
-  let listItem = document.createElement("div");
+//  chatEnter.addEventListener("click", ()=>{
+//   var text = chatInput.value ;
+//   // console.log(text);
+//   let container = document.createElement("div");
+//   container.classList.add("flex")
+//   let content = document.createElement("div");
+//   content.classList.add("max-w-[50%]");
+//   content.innerHTML = chatInput.value;
+//   container.appendChild(content);
 
-// console.log(text)
+//   console.log(container);
 
-//    listItem.innerHTML(`<div class="flex w-fit relative mt-4">
-//   <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600] mr-2">${text}</div>
-//   <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
-//  </div>`)
-//  container.appendChild(listItem);
- })
+//   // chatInt.appendChild(container)
 
+
+//   // container.appendChild(container);
+//   // container.innerHTML =
+//   //  ` <div class="flex w-fit relative mt-4">
+//   // <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600] mr-2">${text}</div>
+//   //  <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+//   // </div>`;
+//   // console.log(container);
+//   // document.timeLine.append(container);
+
+// // console.log(text)
+
+// //    listItem.innerHTML(`<div class="flex w-fit relative mt-4">
+// //   <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600] mr-2">${text}</div>
+// //   <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+// //  </div>`)
+// //  container.appendChild(listItem);
+//  })
+
+// function elementFromHtml(html){
+//    const  template = document.createElement("template");
+//    template.innerHTML = html.trim();
+
+//    return template.content.firstElementChild;
+// }
+
+
+// const container = elementFromHtml(` <div class="flex w-fit relative mt-4">
+//  <div id="right-chat" class="max-w-[50%] h-fit text-xs ml-auto py-1 px-4 bg-[#FFD600] mr-2">${text}</div>
+//  <img class="w-8 h-8 rounded-full" src="assets/download.jpg" alt="">
+//  </div>`);
+
+ 
 
